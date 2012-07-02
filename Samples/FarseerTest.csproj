@@ -95,4 +95,10 @@
     <InterfaceDefinition Include="FarseerTestViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\SourceFiles\FarseerPhysicsMonotouch.csproj">
+      <Project>{74383FA0-BCC4-426A-BF3E-71833C96608D}</Project>
+      <Name>FarseerPhysicsMonotouch</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
